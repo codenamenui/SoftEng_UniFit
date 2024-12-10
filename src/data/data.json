@@ -1,0 +1,96 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "category": "Uniform",
+            "image": "https://res.cloudinary.com/dlzgluuy0/image/upload/v1732139195/1_phmhat.png",
+            "title": "Blouse",
+            "stocks": "Stocks: 98",
+            "description": "A classic and professional uniform blouse designed for comfort and durability, perfect for everyday school or office wear.",
+            "XS": 275, "S": 275, "M": 275, "L": 275, "XL": 290, "XXL": 300 
+        },
+        {
+            "id": 2,
+            "category": "Uniform",
+            "image": "https://res.cloudinary.com/dlzgluuy0/image/upload/v1732139194/2_a4s38a.png",
+            "title": "Polo",
+            "stocks": "Stocks: 44",
+            "description": "A formal and polished uniform polo crafted for all-day comfort and ease of movement, suitable for academic or professional settings.",
+            "XS": 315, "S": 315, "M": 315, "L": 315, "XL": 335, "XXL": 350
+        },
+        {
+            "id": 3,
+            "category": "Uniform",
+            "image": "https://res.cloudinary.com/dlzgluuy0/image/upload/v1732139194/3_x5acml.png",
+            "title": "Slacks (Green)",
+            "stocks": "Stocks: 56",
+            "description": "Tailored girls' slacks offering a sleek and comfortable fit, ideal for school uniforms or formal occasions.",
+            "XS": 320, "S": 340, "M": 360, "L": 375, "XL": 400, "XXL": 415
+        },
+        {
+            "id": 4,
+            "category": "Uniform",
+            "image": "https://res.cloudinary.com/dlzgluuy0/image/upload/v1732139194/4_narxga.png",
+            "title": "Slacks (Black)",
+            "stocks": "Stocks: 76",
+            
+            "description": "Well-fitted boys' slacks made from high-quality materials, designed for durability and a professional appearance.",
+            "XS": 320, "S": 340, "M": 360, "L": 375, "XL": 400, "XXL": 415
+        },
+        {
+            "id": 5,
+            "category": "P.E.",
+            "image": "https://res.cloudinary.com/dlzgluuy0/image/upload/v1732139194/5_nbx3kz.png",
+            "title": "P.E. t-shirt",
+            "stocks": "Stocks: 76",
+            "description": "A lightweight and breathable PE t-shirt made for maximum comfort and flexibility during physical activities.",
+            "XS": 270, "S": 270, "M": 270, "L": 270, "XL": 275, "XXL": 290
+        },
+        {
+            "id": 6,
+            "category": "P.E.",
+            "image": "https://res.cloudinary.com/dlzgluuy0/image/upload/v1732139194/6_rxpegc.png",
+            "title": "P.E. short",
+            "stocks": "Stocks: 35",
+            "description": "Durable and flexible PE shorts designed for activewear, ensuring ease of movement during sports and exercises.",
+            "XS": 270, "S": 270, "M": 270, "L": 270, "XL": 275, "XXL": 290
+        },
+        {
+            "id": 7,
+            "category": "NSTP",
+            "image": "https://res.cloudinary.com/dlzgluuy0/image/upload/v1732139194/7_rf2xmf.png",
+            "title": "NSTP t-shirt",
+            "stocks": "Stocks: 48",
+            "description": "A high-quality NSTP t-shirt created for training and community activities, providing both comfort and durability.",
+            "XS": 250, "S": 250, "M": 250, "L": 250, "XL": 270, "XXL": 275
+        },
+        {
+            "id": 8,
+            "category": "P.E.",
+            "image": "https://res.cloudinary.com/dlzgluuy0/image/upload/v1732139194/8_veeuiu.png",
+            "title": "CSPEAR t-shirt",
+            "stocks": "Stocks: 50",
+            "description": "A premium CSPEAR t-shirt tailored for organizational use, offering a balance of style and functionality.",
+            "XS": 260, "S": 260, "M": 260, "L": 260, "XL": 275, "XXL": 285
+        },
+        {
+            "id": 9,
+            "category": "P.E.",
+            "image": "https://res.cloudinary.com/dlzgluuy0/image/upload/v1732139194/9_hspkea.png",
+            "title": "CSPEAR short",
+            "stocks": "Stocks: 79",
+            "description": "Comfortable and durable CSPEAR shorts suitable for organizational events or casual activities.",
+            "XS": 310, "S": 310, "M": 325, "L": 325, "XL": 335, "XXL": 350
+        },
+        {
+            "id": 10,
+            "category": "P.E.",
+            "image": "https://res.cloudinary.com/dlzgluuy0/image/upload/v1732139195/10_xeyalq.png",
+            "title": "CSPEAR jogging pants",
+            "stocks": "Stocks: 96", 
+            "description": "Soft and durable CSPEAR jogging pants designed for sports, casual wear, or outdoor activities.",
+            "XS": 400, "S": 410, "M": 425, "L": 435, "XL": 450, "XXL": 460
+        }
+  
+    ]
+}
