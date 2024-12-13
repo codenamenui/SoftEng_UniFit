@@ -2,14 +2,14 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
 import { Text, View } from "react-native";
 import HomeScreen from "./src/screen/HomeScreen";
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import Ionicons from "react-native-vector-icons/Ionicons";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import ProductDetailsScreen from "./src/screen/ProductDetailsScreen";
-import ARScreen from './src/screen/ARScreen';
-import UserScreen from './src/screen/UserScreen';
-import CartScreen from './src/screen/CartScreen';
+import ARScreen from "./src/screen/ARScreen";
+import UserScreen from "./src/screen/UserScreen";
+import CartScreen from "./src/screen/CartScreen";
 import { CartProvider } from "./src/context/CartContext";
 import NotificationScreen from "./src/screen/NotificationScreen";
 import FavoriteScreen from "./src/screen/FavoriteScreen";
@@ -46,27 +46,29 @@ const Stack = createNativeStackNavigator();
 
 const MyHomeStack = () => {
   return (
-    <Stack.Navigator screenOptions={{
-      headerShown: false
-    }} 
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}
       //initialRouteName="PRODUCT_DETAILS"
     >
       <Stack.Screen name="HOME" component={HomeScreen} />
-      <Stack.Screen name="USER_SCREEN" component={UserScreen}/>
-      <Stack.Screen name="CART_SCREEN" component={CartScreen}/>
+      <Stack.Screen name="USER_SCREEN" component={UserScreen} />
+      <Stack.Screen name="CART_SCREEN" component={CartScreen} />
       <Stack.Screen name="PRODUCT_DETAILS" component={ProductDetailsScreen} />
-      <Stack.Screen name="AR_SCREEN" component={ARScreen} options={{ title: 'AR Try On' }} />
+      <Stack.Screen
+        name="AR_SCREEN"
+        component={ARScreen}
+        options={{ title: "AR Try On" }}
+      />
       <Stack.Screen name="FAVORITE_SCREEN" component={FavoriteScreen} />
 
       {/* <Stack.Screen name="FAVORITE_SCREEN" component={FavoriteScreen} />  */}
       {/* <Stack.Screen name="NOTIFICATION" component={NotificationScreen} /> */}
       {/* <Stack.Screen name="PRODUCT_DETAILS" component={ProductDetailsScreen} /> */}
-
-
     </Stack.Navigator>
   );
-}; 
-
+};
 
 const App = () => {
   return (
@@ -79,10 +81,10 @@ const App = () => {
               screenOptions={{ headerShown: false }}
             >
               {/* Login/Signup screens */}
-              <Stack.Screen name="FRONT" component={FrontScreen}/>
+              <Stack.Screen name="FRONT" component={FrontScreen} />
               <Stack.Screen name="LOGIN" component={LoginScreen} />
               <Stack.Screen name="SIGNUP" component={SignupScreen} />
-
+              <Stack.Screen name="AR" component={ARScreen} />
               {/* Main App after login */}
               <Stack.Screen name="MAIN_APP" component={MainTabs} />
             </Stack.Navigator>
@@ -91,7 +93,7 @@ const App = () => {
       </FavoriteProvider>
     </CartProvider>
   );
-}
+};
 
 const MainTabs = () => {
   return (
@@ -137,13 +139,11 @@ const MainTabs = () => {
   );
 };
 
-  
-
 // return (
 //     <CartProvider>
 //       <NavigationContainer>
 
-//         <Tab.Navigator 
+//         <Tab.Navigator
 //           screenOptions={{
 //             headerShown: false,
 //             tabBarShowLabel: false,
@@ -165,7 +165,7 @@ const MainTabs = () => {
 //               <MaterialCommunityIcons name={"heart-multiple"} size={size} color={color}/>
 //             ),
 //           }}/>
-  
+
 //           <Tab.Screen name="NOTIFICATION" component={NotificationScreen} options={{
 //             tabBarIcon:({size, color})=> (
 //               <Ionicons name={"notifications-sharp"} size={size} color={color}/>
